@@ -37,6 +37,7 @@
   "devDependencies": {
     "css-loader": "0.25.0",
     "file-loader": "0.9.0",
+    "gh-pages": "1.0.0",
     "html-webpack-plugin": "2.28.0",
     "json-loader": "0.5.4",
     "less": "2.7.1",
@@ -47,7 +48,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maxmax/mernreset.git"
+    "url": "git+https://github.com/maxmax/sr-test-r"
   },
   "keywords": [
     "node",
@@ -57,8 +58,8 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/maxmax/mernreset/issues"
+    "url": "https://github.com/maxmax/sr-test-r/issues"
   },
-  "homepage": "https://github.com/maxmax/mernreset#readme",
+  "homepage": "https://github.com/maxmax/sr-test-r#readme",
   "author": "maxmax"
 }
