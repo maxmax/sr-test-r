@@ -27393,7 +27393,7 @@
 
 	    var prizes = _react2.default.createElement(
 	      'section',
-	      { className: 'thumbs' },
+	      { className: 'thumbs hot' },
 	      thumbs.map(function (v) {
 	        return _react2.default.createElement(_Thumb2.default, {
 	          key: v.id,
@@ -27414,9 +27414,50 @@
 	        'header',
 	        null,
 	        _react2.default.createElement(
-	          'h2',
-	          null,
-	          '\u0412\u0441\u0435'
+	          'ul',
+	          { className: 'nav' },
+	          _react2.default.createElement(
+	            'li',
+	            null,
+	            _react2.default.createElement(
+	              'a',
+	              { href: '#', className: 'active' },
+	              '\u0412\u0441\u0435 ',
+	              _react2.default.createElement(
+	                'sup',
+	                null,
+	                '360'
+	              )
+	            )
+	          ),
+	          _react2.default.createElement(
+	            'li',
+	            null,
+	            _react2.default.createElement(
+	              'a',
+	              { href: '#' },
+	              '\u0420\u0430\u0437\u044B\u0433\u0440\u0430\u043D\u043E ',
+	              _react2.default.createElement(
+	                'sup',
+	                null,
+	                '72'
+	              )
+	            )
+	          ),
+	          _react2.default.createElement(
+	            'li',
+	            null,
+	            _react2.default.createElement(
+	              'a',
+	              { href: '#' },
+	              '\u041E\u0441\u0442\u0430\u043B\u043E\u0441\u044C ',
+	              _react2.default.createElement(
+	                'sup',
+	                null,
+	                '36'
+	              )
+	            )
+	          )
 	        )
 	      ),
 	      _react2.default.createElement(
