@@ -25,7 +25,7 @@ export default React.createClass({
     ];
 
     const prizes = (
-      <section className="thumbs">
+      <section className="thumbs hot">
         {thumbs.map((v) =>
           <Thumb
             key={v.id}
@@ -43,7 +43,17 @@ export default React.createClass({
     const panel = (
       <Panel>
         <header>
-          <h2>Все</h2>
+          <ul className="nav">
+            <li>
+              <a href="#" className="active">Все <sup>360</sup></a>
+            </li>
+            <li>
+              <a href="#">Разыграно <sup>72</sup></a>
+            </li>
+            <li>
+              <a href="#">Осталось <sup>36</sup></a>
+            </li>
+          </ul>
         </header>
         <section className="panel-body">
           {prizes}

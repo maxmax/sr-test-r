@@ -52,6 +52,14 @@
 					&:hover, &:focus, &:active, &.active{
 						color: #ccc;
 					}
+					sup{
+						font-family: $font-family-italic;
+						font-size: 15px;
+						color: #999;
+						position: relative;
+						top: 4px;
+						padding-left: 4px;
+					}
 				}
 			}
 		}
