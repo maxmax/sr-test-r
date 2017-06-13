@@ -376,6 +376,13 @@ body {
             font-size: 21px; }
             .landing-app .panel > header > .nav li > a:hover, .landing-app .panel > header > .nav li > a:focus, .landing-app .panel > header > .nav li > a:active, .landing-app .panel > header > .nav li > a.active {
               color: #ccc; }
+            .landing-app .panel > header > .nav li > a sup {
+              font-family: "RobotoCondensed-Italic", TimesNewRoman, "Times New Roman", Times, Georgia, serif;
+              font-size: 15px;
+              color: #999;
+              position: relative;
+              top: 4px;
+              padding-left: 4px; }
     .landing-app .panel > .panel-body {
       padding: 12px 11px; }
     .landing-app .panel .btn-all {
@@ -416,19 +423,32 @@ body {
       display: block;
       clear: both;
       float: none; }
-    .landing-app .thumbs .thumb {
+    .landing-app .thumbs.hot .thumb {
       display: block;
       padding: 0 12px;
       width: 16.66666667%;
       float: left;
       padding: 0 6px;
       margin-bottom: 12px; }
-      .landing-app .thumbs .thumb:nth-child(1), .landing-app .thumbs .thumb:nth-child(2), .landing-app .thumbs .thumb:nth-child(3), .landing-app .thumbs .thumb:nth-child(4), .landing-app .thumbs .thumb:nth-child(5), .landing-app .thumbs .thumb:nth-child(6) {
+      .landing-app .thumbs.hot .thumb:nth-child(1), .landing-app .thumbs.hot .thumb:nth-child(2), .landing-app .thumbs.hot .thumb:nth-child(3), .landing-app .thumbs.hot .thumb:nth-child(4), .landing-app .thumbs.hot .thumb:nth-child(5), .landing-app .thumbs.hot .thumb:nth-child(6) {
         display: block;
         padding: 0 12px;
         width: 33.33333333%;
         float: left;
         padding: 0 6px; }
+        .landing-app .thumbs.hot .thumb:nth-child(1) > .media, .landing-app .thumbs.hot .thumb:nth-child(2) > .media, .landing-app .thumbs.hot .thumb:nth-child(3) > .media, .landing-app .thumbs.hot .thumb:nth-child(4) > .media, .landing-app .thumbs.hot .thumb:nth-child(5) > .media, .landing-app .thumbs.hot .thumb:nth-child(6) > .media {
+          height: 168px; }
+          .landing-app .thumbs.hot .thumb:nth-child(1) > .media img, .landing-app .thumbs.hot .thumb:nth-child(2) > .media img, .landing-app .thumbs.hot .thumb:nth-child(3) > .media img, .landing-app .thumbs.hot .thumb:nth-child(4) > .media img, .landing-app .thumbs.hot .thumb:nth-child(5) > .media img, .landing-app .thumbs.hot .thumb:nth-child(6) > .media img {
+            height: 220px; }
+          .landing-app .thumbs.hot .thumb:nth-child(1) > .media .qu > span, .landing-app .thumbs.hot .thumb:nth-child(2) > .media .qu > span, .landing-app .thumbs.hot .thumb:nth-child(3) > .media .qu > span, .landing-app .thumbs.hot .thumb:nth-child(4) > .media .qu > span, .landing-app .thumbs.hot .thumb:nth-child(5) > .media .qu > span, .landing-app .thumbs.hot .thumb:nth-child(6) > .media .qu > span {
+            font-size: 21px; }
+    .landing-app .thumbs .thumb {
+      display: block;
+      padding: 0 12px;
+      width: 33.33333333%;
+      float: left;
+      padding: 0 6px;
+      margin-bottom: 12px; }
       @media screen and (max-width: 960px) {
         .landing-app .thumbs .thumb {
           display: block;
@@ -457,7 +477,7 @@ body {
           max-width: 100%; }
       .landing-app .thumbs .thumb .qu {
         position: absolute;
-        top: 90px;
+        bottom: 15px;
         left: 18px;
         font-family: "RobotoCondensed-Bold", TimesNewRoman, "Times New Roman", Times, Georgia, serif;
         font-size: 11px;
