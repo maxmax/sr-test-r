@@ -66,6 +66,9 @@
 	}
 	> .panel-body{
 		padding: 12px 11px;
+		&.auto{
+			padding: 12px 21px;
+		}
 	}
 	.btn-all{
 		@include btn();

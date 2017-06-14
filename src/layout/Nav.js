@@ -15,9 +15,6 @@ export default React.createClass({
               <Link to="/prizes" activeClassName="active">Призы</Link>
             </li>
             <li>
-              <Link to="/winners" activeClassName="active">Победители</Link>
-            </li>
-            <li>
               <Link to="/matches" activeClassName="active">Матчи</Link>
             </li>
           </ul>
