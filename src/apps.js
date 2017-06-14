@@ -8,9 +8,7 @@ import Winners from './modules/Winners'
 import Matches from './modules/Matches'
 import Tests from './modules/Tests'
 
-
 import './Base/main.scss';
-
 
 render((
   <Router history={hashHistory}>
