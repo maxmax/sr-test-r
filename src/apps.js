@@ -6,10 +6,9 @@ import Prizes from './modules/Prizes'
 import Guide from './modules/Guide'
 import Winners from './modules/Winners'
 import Matches from './modules/Matches'
+import Tests from './modules/Tests'
 
 
-//import basedata from './tmp/soil.json';
-//import userrequests from './components/UserRequest/userrequest.json';
 import './Base/main.scss';
 
 
@@ -21,6 +20,7 @@ render((
       <Route path="/guide" component={Guide}/>
       <Route path="/winners" component={Winners}/>
       <Route path="/matches" component={Matches}/>
+      <Route path="/test_modules" component={Tests}/>
     </Route>
   </Router>
 ), document.getElementById('app'))
