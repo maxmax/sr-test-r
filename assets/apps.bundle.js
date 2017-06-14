@@ -27321,15 +27321,6 @@
 	            null,
 	            _react2.default.createElement(
 	              _reactRouter.Link,
-	              { to: '/winners', activeClassName: 'active' },
-	              '\u041F\u043E\u0431\u0435\u0434\u0438\u0442\u0435\u043B\u0438'
-	            )
-	          ),
-	          _react2.default.createElement(
-	            'li',
-	            null,
-	            _react2.default.createElement(
-	              _reactRouter.Link,
 	              { to: '/matches', activeClassName: 'active' },
 	              '\u041C\u0430\u0442\u0447\u0438'
 	            )
@@ -27508,6 +27499,10 @@
 
 	var _reactRouter = __webpack_require__(172);
 
+	var _Panel = __webpack_require__(231);
+
+	var _Panel2 = _interopRequireDefault(_Panel);
+
 	var _Base = __webpack_require__(234);
 
 	var _Base2 = _interopRequireDefault(_Base);
@@ -27519,12 +27514,63 @@
 	  render: function render() {
 
 	    var instanceContent = _react2.default.createElement(
-	      'div',
-	      null,
+	      'section',
+	      { className: 'content-container' },
 	      _react2.default.createElement(
-	        'h2',
+	        'section',
 	        null,
-	        'Guide'
+	        _react2.default.createElement(
+	          'section',
+	          { className: 'auto' },
+	          _react2.default.createElement(
+	            _Panel2.default,
+	            null,
+	            _react2.default.createElement(
+	              'header',
+	              null,
+	              _react2.default.createElement(
+	                'h2',
+	                null,
+	                '\u041A\u0410\u041A \u0418\u0413\u0420\u0410\u0422\u042C?'
+	              )
+	            ),
+	            _react2.default.createElement(
+	              'section',
+	              { className: 'panel-body auto' },
+	              _react2.default.createElement(
+	                'h3',
+	                null,
+	                'Item 1'
+	              ),
+	              _react2.default.createElement(
+	                'p',
+	                null,
+	                'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'
+	              ),
+	              _react2.default.createElement(
+	                'h3',
+	                null,
+	                'Item 2'
+	              ),
+	              _react2.default.createElement(
+	                'p',
+	                null,
+	                'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+	              ),
+	              _react2.default.createElement(
+	                'h3',
+	                null,
+	                'Item 3'
+	              ),
+	              _react2.default.createElement(
+	                'p',
+	                null,
+	                'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'
+	              ),
+	              _react2.default.createElement('br', null)
+	            )
+	          )
+	        )
 	      )
 	    );
 
